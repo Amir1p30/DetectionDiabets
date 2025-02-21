@@ -1,21 +1,20 @@
-# instruction :
-* this project can detection diabets
-* the goal of this project to use type of algorithm from machine learning
-* i use 4 of best algorithms in classification you can see the result 
+# Diabetes Detection using Machine Learning
 
-## what libraries did i use ?
+This project aims to build a machine learning model for detecting diabetes based on several features. The project utilizes four different algorithms to compare and evaluate their performance.
+
+## Libraries Used
 1. numpy
-1. pandas
-1. sikitlearn ( imput & tree & liner_moler & model_selection & ensemble & preprocessing)
+2. pandas
+3. scikit-learn (impute, tree, linear_model, model_selection, ensemble, preprocessing)
 
-### problem in project ?
-* actully this project is ready to run but if you have any problem in your system please try google colab -> [google_colab](https://colab.research.google.com)
+## Known Issues
+This project is ready to run. However, if you encounter any issues running it on your local system, we recommend trying Google Colab for a smoother experience. You can access it here: [Google Colab](https://colab.research.google.com)
 
-### if you want to try these algorithm one by one :
+## Running the Algorithms
+If you want to try each algorithm one by one, use the following template:
+
 ```python
-model = 'your algorithm'
-model.fit(x_train,y_train)
-result = model.predict(x_test,y_test)
-print(result)
-
-```
+model = 'your_algorithm'  # Replace 'your_algorithm' with the actual model (e.g., LogisticRegression, RandomForestClassifier)
+model.fit(x_train, y_train)  # Train the model with the training data
+result = model.predict(x_test)  # Predict the outcomes on test data
+print(result)  # Output the predictions
