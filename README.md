@@ -1,4 +1,5 @@
 # instruction :
+* this project can detection diabets
 * the goal of this project to use type of algorithm from machine learning
 * i use 4 of best algorithms in classification you can see the result 
 
